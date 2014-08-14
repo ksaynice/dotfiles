@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo 'Watching assets/javascripts/**/*.js'
+rstakeout 'javascriptlint' 'assets/javascripts/**/*.js' -f -q

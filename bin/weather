@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby -wKU
+#
+require 'rexml/document'
+xml = `curl -s "http://www.google.com/ig/api?weather=94030"`
+doc = REXML::Document.new(xml)
+
+condition = doc.root.elements["weather/current_conditions/condition"].attributes['data']
+wind_condition = doc.root.elements["weather/current_conditions/wind_condition"].attributes['data']
+wind_condition = wind_condition.match(/\d+/).to_s
+temp_f = doc.root.elements["weather/current_conditions/temp_f"].attributes['data']
+forcast = doc.root.elements["weather/forecast_conditions/high"].attributes['data']
+
+s = "It's #{condition}, #{temp_f} degrees, wind at #{wind_condition} mph, with a high of #{forcast}."
+puts s
+
+`say "#{s}"`

@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+
+if [ -z "$PS1" ]; then
+  echo -e "${COLOR_RED}You should source this, not run it, for example: source ./link${COLOR_NC}"
+else
+
+  link (){
+    if [ -e $1 ]; then
+      if [ -e $2 ]; then
+        rm $2
+      fi
+
+      ln -s $1 $2
+    fi
+  }
+
+  # bash ----------
+  link ~/cl/etc/bash_profile ~/.bash_profile
+  link ~/cl/etc/bashrc ~/.bashrc
+  link ~/cl/etc/bashrc_help ~/.bashrc_help
+  # link ~/cl/etc/bashrc_app_specific ~/.bashrc_app_specific
+
+  # vim ----------
+  # link ~/cl/etc/vim/vimrc ~/.vimrc
+  # link ~/cl/etc/vim/gvimrc ~/.gvimrc
+  # link ~/cl/etc/vim ~/.vim
+
+  # git ----------
+  link ~/cl/etc/gitconfig ~/.gitconfig
+  link ~/cl/etc/gitignore ~/.gitignore
+  link ~/cl/etc/gitattributes ~/.gitattributes
+
+  # ruby & rails ----------
+  link ~/cl/etc/irbrc ~/.irbrc
+  link ~/cl/etc/local_railsrc ~/.local_railsrc
+
+  # misc ----------
+  link ~/cl/etc/bookmarks ~/.bookmarks
+  link ~/cl/etc/ssh_config ~/.ssh/config
+	link ~/cl/etc/tm_properties ~/.tm_properties
+  # link ~/cl/etc/subversion ~/.subversion
+  # link ~/cl/etc/autotest ~/.autotest
+
+  source ~/.bash_profile
+
+fi

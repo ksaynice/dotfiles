@@ -1,0 +1,32 @@
+# mode = :fast
+# mode = :fast_dev
+mode = :dev
+# mode = :perf_testing
+# mode = :test_memcached
+
+case mode
+  when :fast
+    ENV["RAILS_ASSET_ID"] = ""
+    config.action_controller.perform_caching = true
+    config.logger.level = Log4r::INFO if defined?(Log4r)
+    config.cache_classes  = true
+  when :fast_dev
+    ENV["RAILS_ASSET_ID"] = ""
+    config.action_controller.perform_caching = true
+    config.logger.level = Log4r::INFO if defined?(Log4r)
+    config.cache_classes  = false
+  when :dev
+    config.action_controller.perform_caching = false
+    config.logger.level = Log4r::DEBUG if defined?(Log4r)
+    config.cache_classes  = false
+  when :perf_testing
+    ENV["RAILS_ASSET_ID"] = ""
+    config.action_controller.perform_caching = false
+    config.logger.level = Log4r::INFO if defined?(Log4r)
+    config.cache_classes  = true
+  when :test_memcached
+    config.action_controller.perform_caching = true
+    config.logger.level = Log4r::DEBUG if defined?(Log4r)
+    config.cache_classes  = true
+    config.cache_store = :dalli_store, "localhost", {:namespace => "in_dev", :expires_in => 1.day, :compress => true}
+end

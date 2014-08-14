@@ -1,0 +1,3 @@
+sudo echo
+cd /usr/local/Cellar/mysql/5.5.25a ; /usr/local/Cellar/mysql/5.5.25a/bin/mysqld_safe &
+echo 'mysql server started'

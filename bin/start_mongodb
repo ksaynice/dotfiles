@@ -1,0 +1,2 @@
+mongod --dbpath /Users/K/work/meczu/mongodb/ &
+# mongod --dbpath /opt/local/var/db/mongodb/ &

@@ -1,0 +1,12 @@
+softWrap = true
+tabSize = 2
+softTabs = true
+fontName = Monaco
+fontSize = 14
+# spellChecking = true
+spellingLanguage = 'en'
+invisiblesMap = "\t┊"
+
+excludeInFolderSearch = "{$excludeInFolderSearch,tmtags,tmtagsHistory,tmp,jenkins,bin}"
+excludeInFileChooser  = "{$exclude,$excludeInFolderSearch}"
+include               = "{$include,.gitignore,.npmignore,.rspec,.ruby-gemset,.ruby-version,.env.development,.env.test}"

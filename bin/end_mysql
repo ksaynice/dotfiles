@@ -1,0 +1,3 @@
+sudo echo
+mysqladmin5 -u root shutdown
+echo 'mysql server ended'
