@@ -1,0 +1,17 @@
+h1. dotfiles
+========
+
+K's dot files for Max OS modified from Todd Werth’s dotfiles.
+
+I store all my command-line files in a folder (cl), then under that folder there are 3 sub-folders (cl/bin cl/etc cl/doc), to keep them organized away from all my other files.  I link (etc/link) the dot files to the root of my home folder, so I prefer to store them without the . (gitignore rather than .gitignore), then I add the dot in the link.  So if you use one, make sure you put the dot back.
+
+  * ~
+  ** cl
+  *** bin
+  *** docs
+  *** etc
+  **** iterm
+  **** themes
+  
+  # *** etc/iterm for iTerm2 settings
+  # *** etc/themes for textmate2 themes
