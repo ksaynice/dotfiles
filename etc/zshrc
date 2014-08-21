@@ -37,7 +37,7 @@ plugins=(bundler brew cap gem git rails rake textmate vagrant zshmarks autojump 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:$HOME/cl/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 
 export PATH=/usr/local/bin:$PATH
 
