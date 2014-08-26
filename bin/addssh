@@ -1,2 +1,2 @@
 #!/bin/bash
-ssh-add ~/.ssh/k_ssh
+ssh-add ~/.ssh/k_ssh_nook
