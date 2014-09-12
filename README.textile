@@ -8,10 +8,9 @@ I store all my command-line files in a folder (cl), then under that folder there
   * ~
   ** cl
   *** bin
-  *** docs
   *** etc
   **** iterm
   **** themes
-  
+
   # *** etc/iterm for iTerm2 settings
   # *** etc/themes for textmate2 themes
