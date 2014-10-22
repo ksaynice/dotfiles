@@ -9,4 +9,4 @@ invisiblesMap = "\t┊"
 
 excludeInFolderSearch = "{$excludeInFolderSearch,tmtags,tmtagsHistory,tmp,jenkins,bin}"
 excludeInFileChooser  = "{$exclude,$excludeInFolderSearch}"
-include               = "{$include,.gitignore,.npmignore,.rspec,.ruby-gemset,.ruby-version,.env.development,.env.test,.rubocop.yml}"
+include               = "{$include,.gitignore,.npmignore,.rspec,.ruby-gemset,.ruby-version,.env.development,.env,.env.test,.rubocop.yml}"
