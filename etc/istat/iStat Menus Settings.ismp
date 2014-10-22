@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>build</key>
+	<real>573</real>
+	<key>license</key>
+	<string>9485-5111-9195-4794-7524</string>
+	<key>preferences</key>
+	<dict>
+		<key>Battery_MebubarModeCharged</key>
+		<string>2</string>
+		<key>Battery_MenubarCustomizeStates</key>
+		<integer>1</integer>
+		<key>Battery_MenubarHideBluetooth</key>
+		<integer>1</integer>
+		<key>CPU_MenubarGraphBreakdowns</key>
+		<integer>1</integer>
+		<key>CPU_MenubarGraphCustomColors</key>
+		<integer>0</integer>
+		<key>CPU_MenubarGroupItems</key>
+		<integer>0</integer>
+		<key>CPU_MenubarMode</key>
+		<string>100,3</string>
+		<key>CombinedMenubarDisplayMode</key>
+		<string>1,2,3,4,5</string>
+		<key>Diagnostics_Enabled</key>
+		<integer>0</integer>
+		<key>Memory_MenubarGraphCustomColors</key>
+		<integer>0</integer>
+		<key>Sensors_MenubarMode</key>
+		<string>100,3</string>
+		<key>Sensors_TemperatureMode</key>
+		<integer>1</integer>
+		<key>Time_MenubarFlashSeperators</key>
+		<integer>0</integer>
+		<key>Time_MenubarFormat</key>
+		<array>
+			<string>EE</string>
+			<string>' '</string>
+			<string>HH</string>
+			<string>':'</string>
+			<string>mm</string>
+			<string>':'</string>
+			<string>ss</string>
+			<string>' '</string>
+			<string>MMM</string>
+			<string>' '</string>
+			<string>dd</string>
+		</array>
+	</dict>
+	<key>version</key>
+	<real>5.0199999809265137</real>
+</dict>
+</plist>
