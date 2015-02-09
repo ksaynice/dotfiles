@@ -23,30 +23,32 @@
   changed = green
   untracked = cyan
 
-[merge]
-  keepBackup = false;
-  tool = p4merge
-  renameLimit = 1000
-  
-[mergetool "p4merge"]
-  cmd = p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
-  keepTemporaries = false
-  trustExitCode = false
-  keepBackup = false
-  
-[diff]
-  external = p4diff
-  
-[difftool "sourcetree"]
-    cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$LOCAL\" \"$REMOTE\"
-    path =
-    
-[mergetool "sourcetree"]
-    cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
-    trustExitCode = true
+# [merge]
+#   keepBackup = false;
+#   tool = p4merge
+#   renameLimit = 1000
+#
+# [mergetool "p4merge"]
+#   cmd = p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+#   keepTemporaries = false
+#   trustExitCode = false
+#   keepBackup = false
+#
+# [diff]
+#   external = p4diff
+#
+# [difftool "sourcetree"]
+#     cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$LOCAL\" \"$REMOTE\"
+#     path =
+#
+# [mergetool "sourcetree"]
+#     cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+#     trustExitCode = true
+
 [filter "media"]
-	clean = git-media-clean %f
-	smudge = git-media-smudge %f
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
 
 [hub]
 protocol = https
@@ -59,3 +61,7 @@ excludesfile = /opt/boxen/config/git/gitignore
 
 [push]
 	default = simple
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
