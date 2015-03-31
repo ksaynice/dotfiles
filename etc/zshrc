@@ -41,7 +41,7 @@ ZSH_THEME="kzsh"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(autojump bundler brew cap gem git rails rake safe-paste textmate vagrant zshmarks)
+plugins=(autojump bundler brew cap chucknorris gem git rails rake safe-paste textmate vagrant zshmarks)
 
 source $ZSH/oh-my-zsh.sh
 
