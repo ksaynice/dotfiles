@@ -42,12 +42,12 @@
 		<integer>1</integer>
 		<key>StatusItems-Order</key>
 		<array>
-			<integer>7</integer>
 			<integer>1</integer>
 			<integer>2</integer>
 			<integer>3</integer>
 			<integer>4</integer>
 			<integer>5</integer>
+			<integer>7</integer>
 		</array>
 		<key>Theme-SeperateStyles</key>
 		<integer>1</integer>
@@ -65,6 +65,12 @@
 		<integer>0</integer>
 		<key>Time_MenubarFormat</key>
 		<array>
+			<string>MMM</string>
+			<string>' '</string>
+			<string>dd</string>
+			<string>' '</string>
+			<string>EE</string>
+			<string>' '</string>
 			<string>HH</string>
 			<string>':'</string>
 			<string>mm</string>
