@@ -331,10 +331,15 @@
 		<key>TB Size Mode</key>
 		<integer>1</integer>
 	</dict>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
 	<key>NSWindow Frame Preferences</key>
-	<string>211 192 924 485 0 0 1280 777 </string>
+	<string>590 455 924 485 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 325 809 732 0 0 1920 1057 </string>
+	<string>0 49 953 1128 0 0 1920 1177 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -507,11 +512,11 @@
 			<key>Background Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<real>0.027450980618596077</real>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<real>0.027450980618596077</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>0.027450980618596077</real>
 			</dict>
 			<key>Background Image Is Tiled</key>
 			<false/>
@@ -1075,6 +1080,10 @@
 			<string>/Users/K</string>
 		</dict>
 	</array>
+	<key>NoSyncTimeOfLastPromo</key>
+	<real>453275118.72493398</real>
+	<key>NoSyncTimeOfLastPromoDownload</key>
+	<real>457984329.11864102</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1137,7 +1146,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2014-11-07T03:37:30Z</date>
+	<date>2015-07-09T19:10:50Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -1187,6 +1196,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.0.0.20141022</string>
+	<string>2.1.1</string>
 </dict>
 </plist>
