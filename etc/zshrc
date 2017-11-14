@@ -68,6 +68,13 @@ fi
 # ssh
 export SSH_KEY_PATH="~/.ssh/k_ssh_nook"
 
+# android sdk
+export ANDROID_HOME=~/Library/Android/sdk
+export PATH=${PATH}:${ANDROID_HOME}/tools
+
+# JAVA
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home
+
 # Example aliases
 alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
