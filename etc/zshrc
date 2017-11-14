@@ -68,6 +68,7 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # else
 #   export EDITOR='mvim'
 # fi
+export REACT_EDITOR=atom
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -83,8 +84,8 @@ export PATH=${PATH}:${ANDROID_HOME}/tools
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home
 
 # Example aliases
-alias zshconfig="mate ~/.zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig="atom ~/.zshrc"
+alias ohmyzsh="atom ~/.oh-my-zsh"
 
 # Other aliases ----------------------------------------------------
 alias ll='ls -hl'
