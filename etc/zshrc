@@ -52,6 +52,13 @@ if [ -d ~/cl/bin ]; then
 	export PATH=~/cl/bin:$PATH  # add your bin folder to the path, if you have it
 fi
 
+# NVM loading
+export NVM_DIR="/Users/K/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
