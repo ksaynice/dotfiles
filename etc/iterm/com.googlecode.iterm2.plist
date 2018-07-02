@@ -359,7 +359,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>361 251 796 473 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 53 674 824 0 0 1440 877 </string>
+	<string>0 41 690 836 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>364 41 786 836 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
@@ -1260,7 +1260,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-11-14T02:26:59Z</date>
+	<date>2018-04-03T17:32:09Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -1268,7 +1268,7 @@
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>SmartPlacement</key>
@@ -1314,6 +1314,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.1.5.beta.2</string>
+	<string>3.1.6beta5</string>
 </dict>
 </plist>
