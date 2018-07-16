@@ -41,16 +41,20 @@ ZSH_THEME="kzsh"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(autojump bundler brew cap chucknorris gem git rails rake safe-paste textmate vagrant zshmarks)
+plugins=(autojump bundler brew cap chucknorris gem git rails rake safe-paste vagrant zshmarks python)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+# export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 if [ -d ~/cl/bin ]; then
 	export PATH=~/cl/bin:$PATH  # add your bin folder to the path, if you have it
 fi
+
+# Homebrew Python
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+
 
 # NVM loading
 export NVM_DIR="/Users/K/.nvm"
@@ -93,7 +97,7 @@ alias la='ls -a'
 # alias lla='ls -lah'
 
 # Misc ----------------------------------------------------
-# alias reloadbash='source ~/cl/etc/bash_profile'
+alias reloadzsh='source ~/.zshrc'
 alias ducks='du -cksh * | sort -rn|head -11' # Lists folders and files sizes in the current folder
 alias m='more'
 alias top='top -o cpu' # os x
@@ -116,7 +120,6 @@ alias cnpm="npm --registry=https://registry.npm.taobao.org \
     --cache=$HOME/.npm/.cache/cnpm \
     --disturl=https://npm.taobao.org/dist \
     --userconfig=$HOME/.cnpmrc"
-
 
 
 # Hello Messsage --------------------------------------------------

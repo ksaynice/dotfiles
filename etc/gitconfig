@@ -70,3 +70,4 @@ excludesfile = /opt/boxen/config/git/gitignore
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[alias]
