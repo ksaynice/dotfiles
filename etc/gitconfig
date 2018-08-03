@@ -71,3 +71,4 @@ excludesfile = /opt/boxen/config/git/gitignore
 	process = git-lfs filter-process
 	required = true
 [alias]
+	up = pull --rebase --autostash
