@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>build</key>
-	<real>965</real>
+	<real>1054</real>
 	<key>license</key>
 	<dict>
 		<key>email</key>
@@ -88,13 +88,13 @@
 				<key>key</key>
 				<string>100</string>
 				<key>uuid</key>
-				<string>FCD09D97-8C5C-41ED-A6B4-196CB08DD625</string>
+				<string>7B8838B6-FBC0-417B-AB77-75BC278DA376</string>
 			</dict>
 			<dict>
 				<key>key</key>
-				<string>5</string>
+				<string>0</string>
 				<key>uuid</key>
-				<string>BFA88977-68BC-4A62-BB60-E447D3FE3685</string>
+				<string>44A94112-A7E4-49A0-8735-9F70D5E17A97</string>
 			</dict>
 		</array>
 		<key>DropdownTheme</key>
@@ -102,78 +102,7 @@
 		<key>FanControl_Enabled</key>
 		<false/>
 		<key>FanControl_Sets</key>
-		<array>
-			<dict>
-				<key>model</key>
-				<string>MacBookPro11,3</string>
-				<key>name</key>
-				<string>Medium</string>
-				<key>speeds</key>
-				<array>
-					<dict>
-						<key>fan</key>
-						<string>F0Ac</string>
-						<key>high</key>
-						<integer>6156</integer>
-						<key>low</key>
-						<integer>2160</integer>
-						<key>percentage</key>
-						<real>0.5</real>
-						<key>speed</key>
-						<integer>4158</integer>
-					</dict>
-					<dict>
-						<key>fan</key>
-						<string>F1Ac</string>
-						<key>high</key>
-						<integer>5700</integer>
-						<key>low</key>
-						<integer>2000</integer>
-						<key>percentage</key>
-						<real>0.5</real>
-						<key>speed</key>
-						<integer>3850</integer>
-					</dict>
-				</array>
-				<key>uuid</key>
-				<string>C5712CE1-9485-40BC-83D6-6DAB53136652</string>
-			</dict>
-			<dict>
-				<key>model</key>
-				<string>MacBookPro11,3</string>
-				<key>name</key>
-				<string>High</string>
-				<key>speeds</key>
-				<array>
-					<dict>
-						<key>fan</key>
-						<string>F0Ac</string>
-						<key>high</key>
-						<integer>6156</integer>
-						<key>low</key>
-						<integer>2160</integer>
-						<key>percentage</key>
-						<real>1</real>
-						<key>speed</key>
-						<integer>6156</integer>
-					</dict>
-					<dict>
-						<key>fan</key>
-						<string>F1Ac</string>
-						<key>high</key>
-						<integer>5700</integer>
-						<key>low</key>
-						<integer>2000</integer>
-						<key>percentage</key>
-						<real>1</real>
-						<key>speed</key>
-						<integer>5700</integer>
-					</dict>
-				</array>
-				<key>uuid</key>
-				<string>4CE19755-9186-456C-BC3B-0524AE98611C</string>
-			</dict>
-		</array>
+		<array/>
 		<key>Memory_MenubarGraphCustomColors</key>
 		<integer>0</integer>
 		<key>MenubarGraphOpacity</key>
@@ -415,8 +344,17 @@
 				</array>
 			</dict>
 		</array>
+		<key>Zarya-TLE</key>
+		<dict>
+			<key>time</key>
+			<real>1533290730.642664</real>
+			<key>tle</key>
+			<string>ISS (ZARYA)             
+1 25544U 98067A   18215.22971920  .00001086  00000-0  23933-4 0  9998
+2 25544  51.6424 144.2506 0005347  21.4327  93.7502 15.53791846125838</string>
+		</dict>
 	</dict>
 	<key>version</key>
-	<real>6.0999999046325684</real>
+	<real>6.1999998092651367</real>
 </dict>
 </plist>
