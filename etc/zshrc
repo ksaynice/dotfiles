@@ -53,11 +53,10 @@ if [ -d ~/cl/bin ]; then
 fi
 
 # Homebrew Python
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
-
+# export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 # NVM loading
-export NVM_DIR="/Users/K/.nvm"
+export NVM_DIR="/Users/k/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
