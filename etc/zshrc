@@ -41,7 +41,7 @@ ZSH_THEME="kzsh"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(autojump git bundler brew cap chucknorris gem rails rake safe-paste docker docker-machine docker-compose zshmarks python)
+plugins=(autojump git bundler brew chucknorris gem rails rake safe-paste docker docker-machine docker-compose zshmarks python tmux ubuntu)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -51,6 +51,9 @@ source $ZSH/oh-my-zsh.sh
 if [ -d ~/cl/bin ]; then
 	export PATH=~/cl/bin:$PATH  # add your bin folder to the path, if you have it
 fi
+
+# openssl
+export PATH="/usr/local/opt/openssl/bin:$PATH"
 
 # Homebrew Python
 # export PATH="/usr/local/opt/python/libexec/bin:$PATH"
@@ -91,6 +94,12 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 # JAVA
 # export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home
 
+
+# Grin
+# export PATH=~/nodes/grin:$PATH
+
+# local bin
+export PATH=~/.local/bin:$PATH
 
 # Example aliases
 alias zshconfig="atom ~/.zshrc"

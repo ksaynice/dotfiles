@@ -40,3 +40,5 @@ echo -ne "Server time is: "; date
 #     .bashrc
 ##
 
+
+export PATH="$HOME/.cargo/bin:$PATH"

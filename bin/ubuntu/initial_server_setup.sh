@@ -70,6 +70,8 @@ if sshd -t -q; then
     systemctl restart sshd
 fi
 
+echo "New user setup, please login as: ${USERNAME}"
+
 # Add exception for SSH and then enable UFW firewall
 # ufw allow OpenSSH
 # ufw --force enable
